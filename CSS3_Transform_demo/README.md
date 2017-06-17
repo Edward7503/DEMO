@@ -1,4 +1,3 @@
-# [3D走路](https://edward7503.github.io/DEMO/CSS3_Transform_demo/3D走路.html)
 # [3D魔方](https://edward7503.github.io/DEMO/CSS3_Transform_demo/3D魔方.html)
 # [多种加载](https://edward7503.github.io/DEMO/CSS3_Transform_demo/多种加载.html)
 # [旋转照片墙](https://edward7503.github.io/DEMO/CSS3_Transform_demo/旋转照片墙.html)
@@ -7,3 +6,4 @@
 # [虚拟按钮](https://edward7503.github.io/DEMO/CSS3_Transform_demo/虚拟按钮.html)
 # [软纸翻页](https://edward7503.github.io/DEMO/CSS3_Transform_demo/page_fliper/index.html)
 # [加载](https://edward7503.github.io/DEMO/CSS3_Transform_demo/加载.html)
+# [3D走路](https://edward7503.github.io/DEMO/CSS3_Transform_demo/3D走路.html)
