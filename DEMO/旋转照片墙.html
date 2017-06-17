@@ -9,39 +9,39 @@
             padding: 0;
         }
         body{
-            -webkit-transform: perspective(600px);
+            perspective:1000px;
         }
         ul{
-            width: 200px;
-            height: 200px;
+            width: 100px;
+            height: 150px;
             margin: 200px auto;
             position: relative;
-            border: 1px solid red;
-            -webkit-animation: move 10s linear  infinite;
+            border: 1px solid #3c763d;
             -webkit-transform-style: preserve-3d;
-            -webkit-transform-origin:100px 100px
+            -webkit-animation: move 10s linear  infinite;
+            transform: rotateX(-15deg);
         }
         li{
             position: absolute;
             left: 0;
             top: 0;
             list-style: none;
-            width: 200px;
-            height: 200px;
+            width: 100px;
+            height: 150px;
         }
         img{
-            width: 150px;
-            height: 200px;
+            width: 100px;
+            height: 150px;
         }
         @-webkit-keyframes move {
             0%{
-                -webkit-transform: rotateX(-30deg) rotateY(0deg)
+                -webkit-transform: rotateX(-15deg) rotateY(0deg)
             }
             50%{
-                -webkit-transform:rotateX(-30deg) rotateY(180deg)
+                -webkit-transform: rotateX(-15deg) rotateY(180deg)
             }
             100%{
-                -webkit-transform:rotateX(-30deg) rotateY(360deg)
+                -webkit-transform: rotateX(-15deg) rotateY(360deg)
             }
         }
     </style>
@@ -63,9 +63,9 @@
 </ul>
 <script src="js/jquery-1.8.3.js"></script>
 <script>
-    $("img").each(function(i){
+    $("li").each(function(i){
         $(this).css({
-            "transform":"rotateY("+i*30+"deg) translateZ(300px)"
+            "transform":"rotateY("+i*30+"deg) translateZ(250px)"
         })
     })
 </script>
