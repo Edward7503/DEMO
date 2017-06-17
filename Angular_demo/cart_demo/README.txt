@@ -1,3 +1,3 @@
 flex-add
 这是一个关于flexbox基础的骰子布局
- [cart-demo](https://github.com/Edward7503/DEMO/Angular_demo/商品搜索_angular/index.html)
+ [cart-demo](https://edward7503.github.io/DEMO/Angular_demo/cart_demo/index.html)
