@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cbd081c-9cf1-4473-af3c-4487a9edf5f2" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/img/9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DEMO/3D魔方.html" afterPath="$PROJECT_DIR$/DEMO/3D魔方.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/js/jquery-1.8.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DEMO/序列帧动画/旋转照片墙.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DEMO/旋转照片墙.html" afterPath="$PROJECT_DIR$/DEMO/旋转照片墙.html" />
     </list>
@@ -37,21 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="3D走路.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3_Transform_demo/3D走路.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.571428">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="旋转照片墙.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DEMO/旋转照片墙.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78756475">
-              <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.54058725">
+              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -70,6 +49,7 @@
         <option value="$PROJECT_DIR$/Angular_demo/student_system/index.html" />
         <option value="$PROJECT_DIR$/vue_demo/index.html" />
         <option value="$PROJECT_DIR$/DEMO/3D魔方.html" />
+        <option value="$PROJECT_DIR$/DEMO/序列帧动画/旋转照片墙.html" />
         <option value="$PROJECT_DIR$/DEMO/旋转照片墙.html" />
       </list>
     </option>
@@ -144,6 +124,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DEMO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DEMO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Angular_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="student_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DEMO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DEMO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Angular_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="student_system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DEMO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DEMO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Angular_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Commodity_search_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DEMO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DEMO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Angular_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -155,11 +207,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\DEMO\DEMO\js" />
+      <recent name="C:\Users\Administrator\Desktop\DEMO\DEMO" />
+      <recent name="C:\Users\Administrator\Desktop\DEMO\DEMO\序列帧动画" />
       <recent name="C:\Users\Administrator\Desktop\DEMO\DEMO\img" />
       <recent name="C:\Users\Administrator\Desktop\DEMO\vue_demo\libs" />
-      <recent name="C:\Users\Administrator\Desktop\DEMO\Angular_demo\student_system\js" />
-      <recent name="C:\Users\Administrator\Desktop\DEMO\Angular_demo\Commodity_search_demo\js" />
-      <recent name="C:\Users\Administrator\Desktop\DEMO\Angular_demo\cart_demo\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -207,7 +259,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329429" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
@@ -340,18 +392,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DEMO/序列帧动画/旋转照片墙.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2625216">
+          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3_Transform_demo/3D走路.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.571428">
+        <state vertical-scroll-proportion="0.7702936">
           <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3_Transform_demo/旋转照片墙.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.164076">
+          <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DEMO/js/jquery-1.8.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DEMO/旋转照片墙.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78756475">
-          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.54058725">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           <folding />
         </state>
       </provider>
