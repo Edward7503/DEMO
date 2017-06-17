@@ -5,3 +5,4 @@
 # [回放](https://edward7503.github.io/DEMO/DEMO/回放.html)
 # [多种加载](https://edward7503.github.io/DEMO/DEMO/多种加载.html)
 # [旋转照片墙](https://edward7503.github.io/DEMO/DEMO/旋转照片墙.html)
+# [更多demo](https://github.com/Edward7503/DEMO)
