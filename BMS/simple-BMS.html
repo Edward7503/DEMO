@@ -1,8 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" charset='UTF-8'>
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>¼òµ¥ºóÌ¨¹ÜÀíÏµÍ³</title>
+<meta charset="UTF-8"/>
+<meta http-equiv="Content-Type" content="text/html;" />
+<title>ç®€å•åå°ç®¡ç†ç³»ç»Ÿ</title>
 <style type="text/css">
 body{
 	font-size:12px;
@@ -166,21 +167,21 @@ ul{list-style:none;}
 <script type="text/javascript">
 window.onload=function(){
 function $(id){return document.getElementById(id)}
-var menu=$("topTags").getElementsByTagName("ul")[0];//¶¥²¿²Ëµ¥ÈİÆ÷
-var tags=menu.getElementsByTagName("li");//¶¥²¿²Ëµ¥
-var ck=$("leftMenu").getElementsByTagName("ul")[0].getElementsByTagName("li");//×ó²à²Ëµ¥
+var menu=$("topTags").getElementsByTagName("ul")[0];//é¡¶éƒ¨èœå•å®¹å™¨
+var tags=menu.getElementsByTagName("li");//é¡¶éƒ¨èœå•
+var ck=$("leftMenu").getElementsByTagName("ul")[0].getElementsByTagName("li");//å·¦ä¾§èœå•
 var j;
-//µã»÷×ó²à²Ëµ¥Ôö¼ÓĞÂ±êÇ©
+//ç‚¹å‡»å·¦ä¾§èœå•å¢åŠ æ–°æ ‡ç­¾
 for(i=0;i<ck.length;i++){
 ck[i].onclick=function(){
-$("welcome").style.display="none"//»¶Ó­ÄÚÈİÒş²Ø
+$("welcome").style.display="none"//æ¬¢è¿å†…å®¹éšè—
 clearMenu();
 this.style.background='url(images/tabbg02.gif)'
-//Ñ­»·È¡µÃµ±Ç°Ë÷Òı
+//å¾ªç¯å–å¾—å½“å‰ç´¢å¼•
 for(j=0;j<8;j++){
 if(this==ck[j]){
 if($("p"+j)==null){
-openNew(j,this.innerHTML);//ÉèÖÃ±êÇ©ÏÔÊ¾ÎÄ×Ö
+openNew(j,this.innerHTML);//è®¾ç½®æ ‡ç­¾æ˜¾ç¤ºæ–‡å­—
  }
 clearStyle();
 $("p"+j).style.background='url(images/tabbg1.gif)';
@@ -191,12 +192,12 @@ $("c"+j).style.display="block";
 return false;
   }
  }
-//Ôö¼Ó»òÉ¾³ı±êÇ©
+//å¢åŠ æˆ–åˆ é™¤æ ‡ç­¾
 function openNew(id,name){
 var tagMenu=document.createElement("li");
 tagMenu.id="p"+id;
 tagMenu.innerHTML=name+"&nbsp;&nbsp;"+"<img src='images/off.gif' style='vertical-align:middle'/>";
-//±êÇ©µã»÷ÊÂ¼ş
+//æ ‡ç­¾ç‚¹å‡»äº‹ä»¶
 tagMenu.onclick=function(evt){
 clearMenu();
 ck[id].style.background='url(images/tabbg02.gif)'
@@ -205,14 +206,14 @@ tagMenu.style.background='url(images/tabbg1.gif)';
 clearContent();
 $("c"+id).style.display="block";
 }
-//±êÇ©ÄÚ¹Ø±ÕÍ¼Æ¬µã»÷ÊÂ¼ş
+//æ ‡ç­¾å†…å…³é—­å›¾ç‰‡ç‚¹å‡»äº‹ä»¶
 tagMenu.getElementsByTagName("img")[0].onclick=function(evt){
 evt=(evt)?evt:((window.event)?window.event:null);
-if(evt.stopPropagation){evt.stopPropagation()} //È¡ÏûoperaºÍSafariÃ°ÅİĞĞÎª;
-this.parentNode.parentNode.removeChild(tagMenu);//É¾³ıµ±Ç°±êÇ©
+if(evt.stopPropagation){evt.stopPropagation()} //å–æ¶ˆoperaå’ŒSafariå†’æ³¡è¡Œä¸º;
+this.parentNode.parentNode.removeChild(tagMenu);//åˆ é™¤å½“å‰æ ‡ç­¾
 var color=tagMenu.style.backgroundColor;
-//ÉèÖÃÈç¹û¹Ø±ÕÒ»¸ö±êÇ©Ê±£¬ÈÃ×îºóÒ»¸ö±êÇ©µÃµ½½¹µã
-if(color=="#ffff00"||color=="yellow"){//Çø±ğä¯ÀÀÆ÷¶ÔÑÕÉ«½âÊÍ
+//è®¾ç½®å¦‚æœå…³é—­ä¸€ä¸ªæ ‡ç­¾æ—¶ï¼Œè®©æœ€åä¸€ä¸ªæ ‡ç­¾å¾—åˆ°ç„¦ç‚¹
+if(color=="#ffff00"||color=="yellow"){//åŒºåˆ«æµè§ˆå™¨å¯¹é¢œè‰²è§£é‡Š
 if(tags.length-1>=0){
 clearStyle();
 tags[tags.length-1].style.background='url(images/tabbg1.gif)';
@@ -231,19 +232,19 @@ $("welcome").style.display="block"
 }
 menu.appendChild(tagMenu);
 }
-//Çå³ı²Ëµ¥ÑùÊ½
+//æ¸…é™¤èœå•æ ·å¼
 function clearMenu(){
 for(i=0;i<ck.length;i++){
 ck[i].style.background='url(images/tabbg01.gif)';
  }
 }
-//Çå³ı±êÇ©ÑùÊ½
+//æ¸…é™¤æ ‡ç­¾æ ·å¼
 function clearStyle(){
 for(i=0;i<tags.length;i++){
 menu.getElementsByTagName("li")[i].style.background='url(images/tabbg2.gif)';
   }
 }
-//Çå³ıÄÚÈİ
+//æ¸…é™¤å†…å®¹
 function clearContent(){
 for(i=0;i<7;i++){
 $("c"+i).style.display="none";
@@ -254,7 +255,7 @@ $("c"+i).style.display="none";
 </head>
 <body>
 <div id="top">
-<h2>¹ÜÀí²Ëµ¥</h2>
+<h2>ç®¡ç†èœå•</h2>
 <div class=jg></div>
 <div id="topTags">
 <ul>
@@ -264,13 +265,13 @@ $("c"+i).style.display="none";
 <div id="main"> 
 <div id="leftMenu">
 <ul>
-<li>¸öÈË×ÊÁÏ</li>
-<li>Ïà²á¹ÜÀí</li>
-<li>ÈÕÖ¾¹ÜÀí</li>
-<li>ÁôÑÔ¹ÜÀí</li>
-<li>·ç¸ñ¹ÜÀí</li>
-<li>ÏµÍ³¹ÜÀí</li>
-<li>°ïÖúĞÅÏ¢</li>
+<li>ä¸ªäººèµ„æ–™</li>
+<li>ç›¸å†Œç®¡ç†</li>
+<li>æ—¥å¿—ç®¡ç†</li>
+<li>ç•™è¨€ç®¡ç†</li>
+<li>é£æ ¼ç®¡ç†</li>
+<li>ç³»ç»Ÿç®¡ç†</li>
+<li>å¸®åŠ©ä¿¡æ¯</li>
 </ul>
 </div>
 <div class=jg></div>
@@ -278,17 +279,17 @@ $("c"+i).style.display="none";
 <div id="welcome" class="content" style="display:block;">
   <div align="center">
     <p>&nbsp;</p>
-    <p><strong>»¶Ó­Ê¹ÓÃÓÃ»§¹ÜÀíÏµÍ³£¡</strong></p>
+    <p><strong>æ¬¢è¿ä½¿ç”¨ç”¨æˆ·ç®¡ç†ç³»ç»Ÿï¼</strong></p>
     <p>&nbsp;</p>
     </div>
 </div>
-<div id="c0" class="content">¸öÈË×ÊÁÏ</div>
-<div id="c1" class="content">Ïà²á¹ÜÀí</div>
-<div id="c2" class="content">ÈÕÖ¾¹ÜÀí</div>
-<div id="c3" class="content">ÁôÑÔ¹ÜÀí</div>
-<div id="c4" class="content">·ç¸ñ¹ÜÀí</div>
-<div id="c5" class="content">ÏµÍ³¹ÜÀí</div>
-<div id="c6" class="content">°ïÖúĞÅÏ¢</div>
+<div id="c0" class="content">ä¸ªäººèµ„æ–™</div>
+<div id="c1" class="content">ç›¸å†Œç®¡ç†</div>
+<div id="c2" class="content">æ—¥å¿—ç®¡ç†</div>
+<div id="c3" class="content">ç•™è¨€ç®¡ç†</div>
+<div id="c4" class="content">é£æ ¼ç®¡ç†</div>
+<div id="c5" class="content">ç³»ç»Ÿç®¡ç†</div>
+<div id="c6" class="content">å¸®åŠ©ä¿¡æ¯</div>
 </div>
 </div>
 <div id="footer">copyright for 865171 by 865171</div>
